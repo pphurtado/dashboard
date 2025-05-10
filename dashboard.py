@@ -32,7 +32,7 @@ with st.sidebar:
 st.title("🌐 Dashboard for Statistical Physics")
 
 if seleccion == "Inicio":
-    st.subheader("Bienvenido al Dashboard")
+    st.subheader("Interactive Platform for Statistical Physics")
     st.write("Selecciona una opción del menú para comenzar.")
 
 elif seleccion == "Osciladores Armónicos":
