@@ -6,7 +6,7 @@ import altair as alt
 from scipy.special import gamma
 
 # Configuración de la página
-st.set_page_config(page_title="Dashboard de Física Estadística", layout="wide")
+st.set_page_config(page_title="Interactive Platform for Statistical Physics", layout="wide")
 kB = 1.0
 
 # Menú lateral
