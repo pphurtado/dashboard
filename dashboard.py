@@ -27,6 +27,28 @@ with st.sidebar:
 
     elif seleccion == "Configuración":
         opcion_extra = st.checkbox("Activar modo avanzado")
+#Para Cargar Loto
+import base64
+
+# Cargar la imagen y convertirla en base64
+def get_base64_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+
+img_base64 = get_base64_image("DeltaS_Logo_20250510_01.png")
+
+# Insertar la imagen y el título
+st.markdown(
+    f"""
+    <div style='display: flex; align-items: center;'>
+        <img src='data:image/png;base64,{img_base64}' width='40' style='margin-right:10px;'/>
+        <h1 style='display:inline;'>Dashboard for Statistical Physics</h1>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
 
 # Área principal
 st.title("🌐 Dashboard for Statistical Physics")
