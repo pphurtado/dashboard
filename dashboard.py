@@ -6,7 +6,7 @@ import altair as alt
 from scipy.special import gamma
 
 # Configuración de la página
-st.set_page_config(page_title="Interactive Platform for Statistical Physics", layout="wide")
+st.set_page_config(page_title="Sistema: Osciladores Armónicos Unidimensionales (Clásicos)", layout="wide")
 kB = 1.0
 
 # Menú lateral
@@ -29,7 +29,7 @@ with st.sidebar:
         opcion_extra = st.checkbox("Activar modo avanzado")
 
 # Área principal
-st.title("🌐 Dashboard de Física Estadística")
+st.title("🌐 Dashboard for Statistical Physics")
 
 if seleccion == "Inicio":
     st.subheader("Bienvenido al Dashboard")
