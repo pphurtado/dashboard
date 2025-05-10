@@ -48,10 +48,8 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-
-
 # Área principal
-st.title("🌐 Dashboard for Statistical Physics")
+#st.title("🌐 Dashboard for Statistical Physics")
 
 if seleccion == "Inicio":
     st.subheader("Interactive Platform for Statistical Physics")
